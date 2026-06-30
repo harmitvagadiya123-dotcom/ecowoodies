@@ -24,9 +24,21 @@ const Navbar: React.FC = () => {
             Products
           </NavLink>
         </li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Videos</a></li>
+        <li>
+          <NavLink to="/services" className={({ isActive }) => (isActive ? 'active' : '')}>
+            Services
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/blogs" className={({ isActive }) => (isActive ? 'active' : '')}>
+            Blogs
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/videos" className={({ isActive }) => (isActive ? 'active' : '')}>
+            Videos
+          </NavLink>
+        </li>
         <li>
           <NavLink to="/workshop" className={({ isActive }) => (isActive ? 'active' : '')}>
             Workshop
@@ -37,10 +49,27 @@ const Navbar: React.FC = () => {
             CSR
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
+        <li className="dropdown">
+          <NavLink to="/about" className={({ isActive }) => (isActive ? 'active dropdown-toggle' : 'dropdown-toggle')}>
             About Us
           </NavLink>
+          <ul className="dropdown-menu">
+            <li>
+              <NavLink to="/about/why-us" className={({ isActive }) => (isActive ? 'active' : '')}>
+                Why Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about/partners" className={({ isActive }) => (isActive ? 'active' : '')}>
+                Our Partners
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about/designers" className={({ isActive }) => (isActive ? 'active' : '')}>
+                Our Designers
+              </NavLink>
+            </li>
+          </ul>
         </li>
         <li>
           <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>
