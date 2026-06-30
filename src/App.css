@@ -2794,4 +2794,128 @@
   }
 }
 
+/* Services, Workshop, CSR, and Contact Us Pages Styles & Responsive Adjustments */
+.whatsapp-float-btn:hover {
+  transform: scale(1.1) rotate(5deg) !important;
+  background-color: #1ebd59 !important;
+}
+
+.service-card-row {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card-row:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.04) !important;
+}
+
+@media (max-width: 992px) {
+  /* Services Page */
+  .service-card-row {
+    flex-direction: column !important;
+  }
+  .service-card-row > div {
+    width: 100% !important;
+  }
+  .service-card-row > div:last-child {
+    height: 280px !important;
+  }
+
+  /* Workshop Page */
+  .workshop-hero-section {
+    flex-direction: column !important;
+    padding: 40px 5% !important;
+  }
+  .workshop-hero-section > div:last-child {
+    width: 100% !important;
+    height: 350px !important;
+    margin-top: 30px;
+  }
+  .workshop-gallery-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .delivery-cards-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .workshop-cta-banner {
+    flex-direction: column !important;
+    padding: 30px !important;
+    gap: 30px !important;
+  }
+  .workshop-cta-banner > div {
+    width: 100% !important;
+  }
+
+  /* CSR Page */
+  .csr-hero-section {
+    flex-direction: column !important;
+    padding: 40px 5% !important;
+  }
+  .csr-hero-section > div:last-child {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 30px;
+  }
+  .csr-focus-section > div:first-of-type {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .csr-focus-section > div:last-of-type {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px !important;
+  }
+  .csr-impact-section > div {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .csr-approach-section {
+    flex-direction: column !important;
+    padding: 40px 5% !important;
+    gap: 30px !important;
+  }
+  .csr-footer-banner {
+    flex-direction: column !important;
+    padding: 30px !important;
+    gap: 24px !important;
+  }
+  .csr-footer-banner > div {
+    width: 100% !important;
+  }
+
+  /* Contact Us Page */
+  .contact-main-card {
+    flex-direction: column !important;
+  }
+  .contact-main-card > form, .contact-main-card > div {
+    width: 100% !important;
+    border-right: none !important;
+  }
+  .contact-offices-grid {
+    grid-template-columns: 1fr !important;
+    gap: 15px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .workshop-gallery-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .delivery-cards-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .process-flow-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .process-connector {
+    display: none !important;
+  }
+  .csr-focus-section > div:first-of-type {
+    grid-template-columns: 1fr !important;
+  }
+  .csr-focus-section > div:last-of-type {
+    grid-template-columns: 1fr !important;
+  }
+  .csr-impact-section > div {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 

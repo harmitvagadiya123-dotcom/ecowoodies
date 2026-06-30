@@ -24,7 +24,11 @@ const Navbar: React.FC = () => {
             Products
           </NavLink>
         </li>
-        <li><a href="#">Services</a></li>
+        <li>
+          <NavLink to="/services" className={({ isActive }) => (isActive ? 'active' : '')}>
+            Services
+          </NavLink>
+        </li>
         <li>
           <NavLink to="/blogs" className={({ isActive }) => (isActive ? 'active' : '')}>
             Blogs

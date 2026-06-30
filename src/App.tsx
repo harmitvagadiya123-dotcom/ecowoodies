@@ -13,6 +13,7 @@ import Workshop from './pages/Workshop';
 import Quote from './pages/Quote';
 import Videos from './pages/Videos';
 import Blogs from './pages/Blogs';
+import Services from './pages/Services';
 import './App.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path="designers" element={<OurDesigners />} />
           </Route>
           <Route path="workshop" element={<Workshop />} />
+          <Route path="services" element={<Services />} />
           <Route path="videos" element={<Videos />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="csr" element={<CSR />} />
