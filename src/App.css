@@ -2753,4 +2753,45 @@
   }
 }
 
+/* Blogs Page Styles & Hover Animations */
+.blog-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06) !important;
+  border-color: #eaeaea !important;
+}
+
+.blog-card:hover img {
+  transform: scale(1.03) !important;
+}
+
+.blog-search-container input:focus {
+  border-color: var(--primary-green) !important;
+  box-shadow: 0 4px 15px rgba(76,175,80,0.08) !important;
+}
+
+.blog-title-link:hover {
+  color: var(--primary-green) !important;
+}
+
+@media (max-width: 992px) {
+  .blogs-hero-section {
+    flex-direction: column !important;
+    padding: 40px 5% !important;
+  }
+  .blogs-hero-section > div:last-child {
+    width: 100% !important;
+    height: 320px !important;
+  }
+  .blogs-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .blogs-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 
