@@ -100,6 +100,57 @@ import pet14 from '../assets/products/pet_elevated_round.png';
 import pet15 from '../assets/products/pet_sitting_cane.png';
 import pet16 from '../assets/products/pet_kitten_rattan.png';
 
+import newborn1 from '../assets/products/newborn_bamboo_bucket.png';
+import newborn2 from '../assets/products/newborn_bamboo_bed.png';
+import newborn3 from '../assets/products/newborn_heart_bed.png';
+import newborn4 from '../assets/products/newborn_log_bed.png';
+import newborn5 from '../assets/products/newborn_woven_nest.png';
+import newborn6 from '../assets/products/newborn_bunk_bed.png';
+import newborn7 from '../assets/products/newborn_bamboo_chair.png';
+import newborn8 from '../assets/products/newborn_solid_wood_basket.png';
+import newborn9 from '../assets/products/newborn_peacock_chair.png';
+import newborn10 from '../assets/products/newborn_crib_lightweight.png';
+import newborn11 from '../assets/products/newborn_wooden_bed_pad.png';
+import newborn12 from '../assets/products/newborn_cup_basket.png';
+import newborn13 from '../assets/products/newborn_rustic_wooden_crib.png';
+import newborn14 from '../assets/products/newborn_woven_basket.png';
+import newborn15 from '../assets/products/newborn_rocker_chair.png';
+import newborn16 from '../assets/products/newborn_baby_swing.png';
+
+import lounge1 from '../assets/products/lounge_contemporary_farmhouse.png';
+import lounge2 from '../assets/products/lounge_rattan_reclining.png';
+import lounge3 from '../assets/products/lounge_beauty_highback.png';
+import lounge4 from '../assets/products/lounge_car_sofa.png';
+import lounge5 from '../assets/products/lounge_all_weather.png';
+import lounge6 from '../assets/products/lounge_outdoor_dining.png';
+import lounge7 from '../assets/products/lounge_newborn_prop.png';
+import lounge8 from '../assets/products/lounge_metal_dining.png';
+import lounge9 from '../assets/products/lounge_solid_wood_dining.png';
+import lounge10 from '../assets/products/lounge_bamboo_folding.png';
+import lounge11 from '../assets/products/lounge_rocking_coastal.png';
+import lounge12 from '../assets/products/lounge_sofa_chair.png';
+import lounge13 from '../assets/products/lounge_white_rattan.png';
+import lounge14 from '../assets/products/lounge_industrial_sofa.png';
+import lounge15 from '../assets/products/lounge_rattan_backrest.png';
+import lounge16 from '../assets/products/lounge_director_chair.png';
+
+import tray1 from '../assets/products/serving_tray_1.png';
+import tray2 from '../assets/products/serving_tray_2.png';
+import tray3 from '../assets/products/serving_tray_3.png';
+import tray4 from '../assets/products/serving_tray_4.png';
+import tray5 from '../assets/products/serving_tray_5.png';
+import tray6 from '../assets/products/serving_tray_6.png';
+import tray7 from '../assets/products/serving_tray_7.png';
+import tray8 from '../assets/products/serving_tray_8.png';
+import tray9 from '../assets/products/serving_tray_9.png';
+import tray10 from '../assets/products/serving_tray_10.png';
+import tray11 from '../assets/products/serving_tray_11.png';
+import tray12 from '../assets/products/serving_tray_12.png';
+import tray13 from '../assets/products/serving_tray_13.png';
+import tray14 from '../assets/products/serving_tray_14.png';
+import tray15 from '../assets/products/serving_tray_15.png';
+import tray16 from '../assets/products/serving_tray_16.png';
+
 // Fallback images from existing assets
 import rattanChairImg from '../assets/rattan_chair_1782452376795.png';
 import bambooImg from '../assets/bamboo_furniture_1782452366024.png';
@@ -795,6 +846,348 @@ export const productsData: Record<string, Product[]> = {
       title: "Environmental and Comfort Rattan Pet Bed for Kittens and Small Dogs",
       price: "$28.65-35.80",
       minOrder: "5 pieces"
+    }
+  ],
+  "newborn-photography": [
+    {
+      id: 701,
+      image: newborn1,
+      title: "Newborn Posing Bamboo Bucket Eco-Friendly Vintage Baby Posing Bucket",
+      price: "$5.65-11.50",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 702,
+      image: newborn2,
+      title: "Cute Eco-friendly Newborn Bamboo Bed for Indoor/Outdoor Photoshoot",
+      price: "$5.65-11.50",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 703,
+      image: newborn3,
+      title: "Newborn Photography Props Modern Eco-Friendly Bamboo Heart Shaped Bed",
+      price: "$5.85-12.55",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 704,
+      image: newborn4,
+      title: "Newborn Photography Props Brown Bamboo Log Bed Eco-friendly Cradle",
+      price: "$30-36",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 705,
+      image: newborn5,
+      title: "Studio Photography Newborn Baby Photography Modeling Woven Nest Basket",
+      price: "$20.70-26.60",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 706,
+      image: newborn6,
+      title: "Born Baby Eco-Friendly Luxury Classic Bunk Bed Multi Function Crib",
+      price: "$28.55-33.50",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 707,
+      image: newborn7,
+      title: "Hot Selling Wholesale Newborn Photography Prop Luxury Bamboo Chair",
+      price: "$16.90-22.20",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 708,
+      image: newborn8,
+      title: "Ecowoodies 2021 Latest Modern Portable Eco-friendly Solid Wood Prop Basket",
+      price: "$17.40-21.20",
+      minOrder: "200 pieces"
+    },
+    {
+      id: 709,
+      image: newborn9,
+      title: "Cute Modern Kids Chair Photography Prop for Newborn Peacock Chair",
+      price: "$14.20-19.60",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 710,
+      image: newborn10,
+      title: "Modern Eco-Friendly Wooden Baby Crib Lightweight Portable Bed",
+      price: "$12.50-18.50",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 711,
+      image: newborn11,
+      title: "Newborn Photography Props Wooden Bed Pad Accessories & Props",
+      price: "$30-36",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 712,
+      image: newborn12,
+      title: "Portable Cup-Shaped Wood Basket Eco-friendly Durable Rattan Prop",
+      price: "$15.65-21.40",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 713,
+      image: newborn13,
+      title: "Solid Wood Newborn Baby Bed Photography Props Rustic Wooden Crib",
+      price: "$18.80-25.70",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 714,
+      image: newborn14,
+      title: "High Quality Hand Woven Bamboo Newborn Photography Basket Prop",
+      price: "$15-18.10",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 715,
+      image: newborn15,
+      title: "Infant Photography Prop Kids Chair Multifunctional Solid Wood Rocker",
+      price: "$8.60-15.70",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 716,
+      image: newborn16,
+      title: "Premium Eco-friendly White Modern Newborn Baby Swing Macrame Prop",
+      price: "$30-42",
+      minOrder: "2 pieces"
+    }
+  ],
+  "lounge-chairs": [
+    {
+      id: 801,
+      image: lounge1,
+      title: "Contemporary Farmhouse Style White Bamboo Rattan Wicker Armchair",
+      price: "$41.55-47.65",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 802,
+      image: lounge2,
+      title: "Rattan Reclining Lounge Chair With Cushion Contemporary",
+      price: "$40.60-47.65",
+      minOrder: "2 sets"
+    },
+    {
+      id: 803,
+      image: lounge3,
+      title: "Beauty Design High Back Rattan Royale Children's Bamboo Cane",
+      price: "$40-45",
+      minOrder: "3 sets"
+    },
+    {
+      id: 804,
+      image: lounge4,
+      title: "Handcrafted Two Seat Vintage Car Shaped Leather Sofa Bed",
+      price: "$45.99-54.99",
+      minOrder: "200 sets"
+    },
+    {
+      id: 805,
+      image: lounge5,
+      title: "All-Weather Traditional Leisure Adjustable Eco-Friendly Bamboo Sofa Set",
+      price: "$95-114",
+      minOrder: "2 sets"
+    },
+    {
+      id: 806,
+      image: lounge6,
+      title: "Antique Bamboo Outdoor Dining Table and Chair Set Weather Resistant",
+      price: "$185-200.30",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 807,
+      image: lounge7,
+      title: "Hot Selling Wholesale Newborn Photography Prop Luxury Bamboo Chair",
+      price: "$16.90-22.20",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 808,
+      image: lounge8,
+      title: "Modern Luxury Metal Outdoor Dining Chairs and Table Set for Garden",
+      price: "$130.70-140.50",
+      minOrder: "500 pieces"
+    },
+    {
+      id: 809,
+      image: lounge9,
+      title: "High Quality Solid Wood Mild Steel Super Comfortable Dining Chair",
+      price: "$40.50-50.30",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 810,
+      image: lounge10,
+      title: "Excellent Design Eco-friendly Bamboo Folding Nap Bed Lazy Lounger",
+      price: "$24.75-30.30",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 811,
+      image: lounge11,
+      title: "Classic Bamboo Handmade Rocking Tapered Leg Coastal Armchair",
+      price: "$42.50-48.65",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 812,
+      image: lounge12,
+      title: "Antique European Handcrafted Bamboo Two Seat Sofa Chair",
+      price: "$35.90-41.60",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 813,
+      image: lounge13,
+      title: "Wholesale White Portable Cane Rattan Bamboo Chair",
+      price: "$42.45-48.30",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 814,
+      image: lounge14,
+      title: "Best Selling Industrial Bamboo Wicker 2 Seater Sofa",
+      price: "$78.50-84.55",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 815,
+      image: lounge15,
+      title: "Rattan Backrest Chair With Armrest Upholstered Seat",
+      price: "$42.60-48.55",
+      minOrder: "2 sets"
+    },
+    {
+      id: 816,
+      image: lounge16,
+      title: "2022 Outdoor Farmhouse Bamboo Director Chairs Folding",
+      price: "$39.50-43.50",
+      minOrder: "100 pieces"
+    }
+  ],
+  "serving-trays": [
+    {
+      id: 901,
+      image: tray1,
+      title: "Wholesale Eco-Friendly Bamboo Wicker Water Hyacinth Woven Tray",
+      price: "$9.75-13.60",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 902,
+      image: tray2,
+      title: "Flourish Hand-Carved Solid Wood and Bamboo Coffee Table Serving Tray",
+      price: "$9.95-18.90",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 903,
+      image: tray3,
+      title: "Flourish Hand-Carved Solid Wood and Bamboo Coffee Table Butler Tray",
+      price: "$9.95-18.90",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 904,
+      image: tray4,
+      title: "Flourish Hand-Carved Solid Wood and Bamboo Coffee Table Scalloped Tray",
+      price: "$9.95-18.90",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 905,
+      image: tray5,
+      title: "Bamboo Eco-Friendly Cherry Red Butler Tray Table Adjustable Folding Stand",
+      price: "$6.90-9.85",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 906,
+      image: tray6,
+      title: "SD-03062026A_1",
+      price: "$6.55-9.15",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 907,
+      image: tray7,
+      title: "SD-03062026A_2",
+      price: "$6.55-9.15",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 908,
+      image: tray8,
+      title: "SD-03062026A_1",
+      price: "$6.55-9.15",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 909,
+      image: tray9,
+      title: "SD-06062026B_2",
+      price: "$9.95-18.90",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 910,
+      image: tray10,
+      title: "SD-06062026B_1",
+      price: "$9.95-18.90",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 911,
+      image: tray11,
+      title: "Home Decor Industrial Design Glossy Finish Eco-Friendly Non-Slip Tray",
+      price: "$9.95-18.90",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 912,
+      image: tray12,
+      title: "Aesthetically Designed Crafted Beautiful Bamboo Art Deco Heart Tray",
+      price: "$6.55-9.15",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 913,
+      image: tray13,
+      title: "Aesthetically Designed Crafted Beautiful Bamboo Art Deco Heart Tray",
+      price: "$6.55-9.15",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 914,
+      image: tray14,
+      title: "Aesthetically Designed Crafted Beautiful Bamboo Art Deco Heart Tray",
+      price: "$6.55-9.15",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 915,
+      image: tray15,
+      title: "Rustic Handcrafted Wooden Tray Suited for Lifestyle or Decorative Use",
+      price: "$6.50-9.75",
+      minOrder: "2 pieces"
+    },
+    {
+      id: 916,
+      image: tray16,
+      title: "High Quality Eco-Friendly Jute Oval Serving Tray with Bamboo Handles",
+      price: "$12.30-18.50",
+      minOrder: "2 pieces"
     }
   ]
 };
