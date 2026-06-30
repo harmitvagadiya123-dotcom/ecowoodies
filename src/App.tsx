@@ -11,6 +11,7 @@ import CSR from './pages/CSR';
 import ContactUs from './pages/ContactUs';
 import Workshop from './pages/Workshop';
 import Quote from './pages/Quote';
+import Videos from './pages/Videos';
 import './App.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="designers" element={<OurDesigners />} />
           </Route>
           <Route path="workshop" element={<Workshop />} />
+          <Route path="videos" element={<Videos />} />
           <Route path="csr" element={<CSR />} />
           <Route path="contact" element={<ContactUs />} />
           <Route path="quote" element={<Quote />} />
