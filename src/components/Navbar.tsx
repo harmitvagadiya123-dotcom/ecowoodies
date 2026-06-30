@@ -37,10 +37,27 @@ const Navbar: React.FC = () => {
             CSR
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
+        <li className="dropdown">
+          <NavLink to="/about" className={({ isActive }) => (isActive ? 'active dropdown-toggle' : 'dropdown-toggle')}>
             About Us
           </NavLink>
+          <ul className="dropdown-menu">
+            <li>
+              <NavLink to="/about/why-us" className={({ isActive }) => (isActive ? 'active' : '')}>
+                Why Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about/partners" className={({ isActive }) => (isActive ? 'active' : '')}>
+                Our Partners
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about/designers" className={({ isActive }) => (isActive ? 'active' : '')}>
+                Our Designers
+              </NavLink>
+            </li>
+          </ul>
         </li>
         <li>
           <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>
